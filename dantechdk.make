@@ -74,6 +74,12 @@ projects[strongarm][version] = 2.0-beta5
 projects[taxonomy_menu][subdir] = contrib
 projects[taxonomy_menu][version] = 1.4
 
+projects[tabsnomore][type] = module
+projects[tabsnomore][subdir] = contrib
+projects[tabsnomore][download][type] = "git"
+projects[tabsnomore][download][url] = "http://git.drupal.org/sandbox/onkeltem/1730244.git"
+projects[tabsnomore[download][branch] = "master"
+
 projects[taxonomy_display][subdir] = contrib
 projects[taxonomy_display][version] = 1.1
 
