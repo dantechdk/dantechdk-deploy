@@ -109,8 +109,10 @@ projects[omega][version] = 3.1
 projects[navin][subdir] = contrib
 projects[navin][version] = 1.0-beta2
 
-; Custom Modules ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+projects[shiny][subdir] = contrib
+projects[shiny][version] = 1.x-dev
 
+; Custom Modules ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Custom Themes ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
