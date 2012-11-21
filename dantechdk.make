@@ -6,6 +6,9 @@ core = 7.x
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0
 
+projects[admin_views][subdir] = contrib
+projects[admin_views][version] = 1.0
+
 projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
 
@@ -97,6 +100,9 @@ projects[transliteration][version] = 3.1
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.5
+
+projects[views_bulk_operations][subdir] = contrib
+projects[views_bulk_operations][version] = 3.0
 
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.0
