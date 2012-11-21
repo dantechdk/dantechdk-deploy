@@ -4,7 +4,7 @@ core = 7.x
 ; Contrib Modules ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 projects[advanced_help][subdir] = contrib
-projects[advancedh_help][version] = 1.0
+projects[advanced_help][version] = 1.0
 
 projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
