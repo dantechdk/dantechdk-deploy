@@ -114,6 +114,11 @@ projects[shiny][version] = 1.x-dev
 
 ; Custom Modules ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+projects[dantechdk_help][type] = theme
+projects[dantechdk_help][download][type] = "git"
+projects[dantechdk_help][download][url] = "git://github.com/dantechdk/dantechdk_help.git"
+projects[dantechdk_help][download][branch] = "7.x-1.x"
+
 ; Custom Themes ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 projects[slicer][type] = theme
