@@ -21,9 +21,6 @@ projects[enterprise_rotator][version] = 1.0-rc1
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
 
-projects[entity_view_mode][subdir] = contrib
-projects[entity_view_mode][version] = 1.0-beta3
-
 projects[facetapi][subdir] = contrib
 projects[facetapi][version] = 1.2
 projects[facetapi][patch][1616518] = http://drupal.org/files/1616518-7-show-active-term.patch
