@@ -35,7 +35,7 @@ projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.0-unstable7
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.2
+projects[google_analytics][version] = 1.3
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0
@@ -75,7 +75,7 @@ projects[special_menu_items][subdir] = contrib
 projects[special_menu_items][version] = 2.0
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-beta5
+projects[strongarm][version] = 2.0
 
 projects[taxonomy_menu][subdir] = contrib
 projects[taxonomy_menu][version] = 1.4
