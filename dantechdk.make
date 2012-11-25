@@ -123,22 +123,22 @@ projects[shiny][version] = 1.x-dev
 
 ; Custom Modules ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-projects[dantech_pages][type] = theme
+projects[dantech_pages][type] = module
 projects[dantech_pages][download][type] = "git"
 projects[dantech_pages][download][url] = "git://github.com/dantechdk/dantech_pages.git"
 projects[dantech_pages][download][branch] = "7.x-1.x"
 
-projects[dantech_partners][type] = theme
+projects[dantech_partners][type] = module
 projects[dantech_partners][download][type] = "git"
 projects[dantech_partners][download][url] = "git://github.com/dantechdk/dantech_partners.git"
 projects[dantech_partners][download][branch] = "7.x-1.x"
 
-projects[dantech_products][type] = theme
+projects[dantech_products][type] = module
 projects[dantech_products][download][type] = "git"
 projects[dantech_products][download][url] = "git://github.com/dantechdk/dantech_products.git"
 projects[dantech_products][download][branch] = "7.x-1.x"
 
-projects[dantechdk_help][type] = theme
+projects[dantechdk_help][type] = module
 projects[dantechdk_help][download][type] = "git"
 projects[dantechdk_help][download][url] = "git://github.com/dantechdk/dantechdk_help.git"
 projects[dantechdk_help][download][branch] = "7.x-1.x"
