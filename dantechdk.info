@@ -34,4 +34,10 @@ dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = wysiwyg
 
+;custom
+dependencies[] = dantech_pages
+dependencies[] = dantech_products
+dependencies[] = dantech_partners
+dependencies[] = dantechdk_help
+
 files[] = dantechdk.profile
