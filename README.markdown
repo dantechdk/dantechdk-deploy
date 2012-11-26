@@ -1,4 +1,4 @@
-[danteckdk.com](http://danteckdk.com)
+[danteckdk.com](http://danteckdk.com) [![Build Status](https://secure.travis-ci.org/dantechdk/dantechdk-deploy.png?branch=7.x-1.x)](https://travis-ci.org/dantechdk/dantechdk-deploy)
 ==
 
 Instructions on how to build the site from Drupal 7.
