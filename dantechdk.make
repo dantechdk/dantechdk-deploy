@@ -117,6 +117,7 @@ projects[omega][version] = 3.1
 
 projects[navin][subdir] = contrib
 projects[navin][version] = 1.0-beta2
+projects[navin][patch][1850670] = http://drupal.org/files/issue-1850670.patch
 
 projects[shiny][subdir] = contrib
 projects[shiny][version] = 1.x-dev
