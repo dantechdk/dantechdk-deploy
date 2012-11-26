@@ -14,6 +14,10 @@ function dantechdk_install() {
   _dantechdk_configure_wysiwyg();
 }
 
+function dantechdk_update_7100 {
+  module_enable(array('entityreference'));
+}
+
 function _dantechdk_configure_wysiwyg() {
   //WYSIWYG Setup Filtered HTML
   $wysiwyg_setting = array(
