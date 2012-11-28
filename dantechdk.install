@@ -41,6 +41,9 @@ function dantechdk_install() {
   variable_set('node_admin_theme', '1');
 }
 
+/**
+ * Implements hook_update().
+ */
 function dantechdk_update_7100() {
   module_enable(array('entityreference'));
 }
