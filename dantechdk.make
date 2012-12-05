@@ -12,6 +12,9 @@ projects[admin_views][version] = 1.0
 projects[better_formats][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
 
+projects[chart][subdir] = contrib
+projects[chart][version] = 1.x-dev
+
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
 
@@ -36,6 +39,9 @@ projects[file_entity][version] = 2.0-unstable7
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.3
+
+projects[google_analytics_reports][subdir] = contrib
+projects[google_analytics_reports][version] = 3.x-dev
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0
