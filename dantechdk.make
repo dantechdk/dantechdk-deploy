@@ -28,9 +28,6 @@ projects[search_api][version] = 1.3
 projects[search_api_db][subdir] = contrib
 projects[search_api_db][version] = 1.0-beta4
 
-projects[special_menu_items][subdir] = contrib
-projects[special_menu_items][version] = 2.0
-
 projects[taxonomy_menu][subdir] = contrib
 projects[taxonomy_menu][version] = 1.4
 
