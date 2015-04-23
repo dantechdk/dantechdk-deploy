@@ -27,4 +27,4 @@ before_script:
 
 script:
   - test -d profiles/dantechdk
-  - test -d profiles/dantechdk/modules/contrib
+  - test -d sites/all/modules/contrib
