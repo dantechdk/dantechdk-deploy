@@ -6,6 +6,13 @@ core = 7.x
 projects[dantech_pages][type] = module
 projects[dantech_pages][subdir] = dantechdk
 projects[dantech_pages][download][type] = "git"
+projects[dantech_pages][download][url] = "git://github.com/dantechdk/dantech_deploy.git"
+projects[dantech_pages][download][branch] = "7.x-1.x"
+projects[dantech_pages][download][revision] = "c036bbe86393ae16784114a6ad84e9055f809e46"
+
+projects[dantech_pages][type] = module
+projects[dantech_pages][subdir] = dantechdk
+projects[dantech_pages][download][type] = "git"
 projects[dantech_pages][download][url] = "git://github.com/dantechdk/dantech_pages.git"
 projects[dantech_pages][download][branch] = "7.x-1.x"
 projects[dantech_pages][download][revision] = "24fce1bd8d8ab6de30c5a8abdd7c3ed4ba958b30"
