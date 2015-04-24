@@ -3,12 +3,12 @@ core = 7.x
 
 ; Custom Modules ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-projects[dantech_pages][type] = module
-projects[dantech_pages][subdir] = dantechdk
-projects[dantech_pages][download][type] = "git"
-projects[dantech_pages][download][url] = "git://github.com/dantechdk/dantech_deploy.git"
-projects[dantech_pages][download][branch] = "7.x-1.x"
-projects[dantech_pages][download][revision] = "c036bbe86393ae16784114a6ad84e9055f809e46"
+projects[dantech_deploy][type] = module
+projects[dantech_deploy][subdir] = dantechdk
+projects[dantech_deploy][download][type] = "git"
+projects[dantech_deploy][download][url] = "git://github.com/dantechdk/dantech_deploy.git"
+projects[dantech_deploy][download][branch] = "7.x-1.x"
+projects[dantech_deploy][download][revision] = "80b3c09"
 
 projects[dantech_pages][type] = module
 projects[dantech_pages][subdir] = dantechdk
