@@ -22,7 +22,8 @@ before_script:
   - echo sendmail_path=`which true` >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
   
   # Install site
-  - drush si dantechdk --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=VIH@2012 --site-mail=admin@example.com --site-name="dantechdk.com" --yes
+  - drush si minimal --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=VIH@2012 --site-mail=admin@example.com --site-name="dantechdk.com" --yes
+  - drush en dantech_deploy -y
   - drush cc all --yes
 
 script:
