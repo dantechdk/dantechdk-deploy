@@ -27,5 +27,5 @@ before_script:
   - drush cc all --yes
 
 script:
-  - test -d profiles/dantechdk
+  - test -d sites/all/modules/dantechdk
   - test -d sites/all/modules/contrib
