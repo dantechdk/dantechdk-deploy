@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 
-; Custom Modules ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Custom modules
 
 projects[dantech_deploy][type] = module
 projects[dantech_deploy][subdir] = dantechdk
@@ -38,7 +38,12 @@ projects[dantechdk_help][download][url] = "git://github.com/dantechdk/dantechdk_
 projects[dantechdk_help][download][branch] = "7.x-1.x"
 projects[dantechdk_help][download][revision] = "a536d81d38c288ad551b20ff5ee256a1a2591cc5"
 
-; Custom Themes ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Contrib modules
+
+projects[enterprise_rotator][subdir] = contrib
+projects[enterprise_rotator][version] = 1.0-rc1
+
+; Custom themes
 
 projects[slicer][type] = theme
 projects[slicer][download][type] = "git"
