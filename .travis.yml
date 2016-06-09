@@ -24,7 +24,7 @@ before_script:
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
   
   # Build site.
-  - drush make build-dantechdk.make ../dantechdk.com
+  - drush make build-dantechdk-dev.make ../dantechdk.com
   - cd ../dantechdk.com
   - sudo chmod -R 777 sites/
   
