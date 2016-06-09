@@ -42,6 +42,7 @@ projects[dantechdk_help][download][revision] = "a536d81d38c288ad551b20ff5ee256a1
 
 projects[enterprise_rotator][subdir] = contrib
 projects[enterprise_rotator][version] = 1.0-rc1
+projects[enterprise_rotator][patch][2676090] = https://www.drupal.org/files/issues/issue-2676090.patch
 
 ; Custom themes
 
