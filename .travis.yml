@@ -26,7 +26,7 @@ before_script:
   # Build site.
   - drush make build-dantechdk-dev.make ../dantechdk.com
   - cd ../dantechdk.com
-  - sudo chmod -R 777 sites/
+  - chmod -R 777 sites/
   
   # Disable sendmail
   - echo sendmail_path=`which true` >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
