@@ -8,7 +8,7 @@ projects[dantech_deploy][subdir] = dantechdk
 projects[dantech_deploy][download][type] = "git"
 projects[dantech_deploy][download][url] = "git://github.com/dantechdk/dantech_deploy.git"
 projects[dantech_deploy][download][branch] = "7.x-1.x"
-projects[dantech_deploy][download][revision] = "80b3c09"
+projects[dantech_deploy][download][revision] = "97429b5"
 
 projects[dantech_pages][type] = module
 projects[dantech_pages][subdir] = dantechdk
