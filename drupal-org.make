@@ -8,28 +8,28 @@ projects[dantech_deploy][subdir] = dantechdk
 projects[dantech_deploy][download][type] = "git"
 projects[dantech_deploy][download][url] = "git://github.com/dantechdk/dantech_deploy.git"
 projects[dantech_deploy][download][branch] = "7.x-1.x"
-projects[dantech_deploy][download][revision] = "80b3c09"
+projects[dantech_deploy][download][revision] = "97429b5"
 
 projects[dantech_pages][type] = module
 projects[dantech_pages][subdir] = dantechdk
 projects[dantech_pages][download][type] = "git"
 projects[dantech_pages][download][url] = "git://github.com/dantechdk/dantech_pages.git"
 projects[dantech_pages][download][branch] = "7.x-1.x"
-projects[dantech_pages][download][revision] = "24fce1bd8d8ab6de30c5a8abdd7c3ed4ba958b30"
+projects[dantech_pages][download][revision] = "a5e2917"
 
 projects[dantech_partners][type] = module
 projects[dantech_partners][subdir] = dantechdk
 projects[dantech_partners][download][type] = "git"
 projects[dantech_partners][download][url] = "git://github.com/dantechdk/dantech_partners.git"
 projects[dantech_partners][download][branch] = "7.x-1.x"
-projects[dantech_partners][download][revision] = "66d8d64d41d60acb89390931eb31ef88a47507b4"
+projects[dantech_partners][download][revision] = "35f7b5e"
 
 projects[dantech_products][type] = module
 projects[dantech_products][subdir] = dantechdk
 projects[dantech_products][download][type] = "git"
 projects[dantech_products][download][url] = "git://github.com/dantechdk/dantech_products.git"
 projects[dantech_products][download][branch] = "7.x-1.x"
-projects[dantech_products][download][revision] = "5eaa27430355629c1ba2488aa70008ff2afc4cf0"
+projects[dantech_products][download][revision] = "1fcb62a"
 
 projects[dantechdk_help][type] = module
 projects[dantechdk_help][subdir] = dantechdk
