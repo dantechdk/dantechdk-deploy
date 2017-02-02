@@ -1,7 +1,55 @@
 api = 2
 core = 7.x
 
-; Custom modules
+defaults[projects][subdir] = contrib
+
+; Contrib modules.
+
+projects[ctools][version] = 1.10
+
+projects[enterprise_rotator][subdir] = contrib
+projects[enterprise_rotator][version] = 1.0-rc1
+projects[enterprise_rotator][patch][2676090] = https://www.drupal.org/files/issues/issue-2676090.patch
+
+projects[entity][version] = 1.7
+
+projects[facetapi][version] = 1.5
+projects[facetapi][patch][1616518] = https://www.drupal.org/files/1616518-term_remove_link-24.patch
+
+projects[features][version] = 2.10
+
+projects[file_entity][version] = 2.0-beta3
+
+projects[google_analytics][version] = 2.2
+
+projects[libraries][version] = 2.3
+
+projects[media][version] = 2.0-beta2
+
+projects[metatag][version] = 1.16
+
+projects[pathauto][version] = 1.3
+
+projects[redirect][version] = 1.0-rc3
+
+projects[search_api][version] = 1.18
+
+projects[search_api_db][version] = 1.5
+
+projects[strongarm][version] = 2.0
+
+projects[token][version] = 1.6
+
+projects[transliteration][version] = 3.2
+
+projects[views][version] = 3.14
+
+projects[wysiwyg][version] = 2.x-dev
+projects[wysiwyg][download][type] = git
+projects[wysiwyg][download][revision] = 3cb63de
+projects[wysiwyg][download][branch] = 7.x-2.x
+
+; Custom modules.
 
 projects[dantech_deploy][type] = module
 projects[dantech_deploy][subdir] = dantechdk
@@ -38,15 +86,10 @@ projects[dantechdk_help][download][url] = "git://github.com/dantechdk/dantechdk_
 projects[dantechdk_help][download][branch] = "7.x-1.x"
 projects[dantechdk_help][download][revision] = "a536d81d38c288ad551b20ff5ee256a1a2591cc5"
 
-; Contrib modules
-
-projects[enterprise_rotator][subdir] = contrib
-projects[enterprise_rotator][version] = 1.0-rc1
-projects[enterprise_rotator][patch][2676090] = https://www.drupal.org/files/issues/issue-2676090.patch
-
 ; Custom themes
 
 projects[slicer][type] = theme
+projects[slicer][subdir] = ""
 projects[slicer][download][type] = "git"
 projects[slicer][download][url] = "git://github.com/dantechdk/slicer.git"
 projects[slicer][download][branch] = "7.x-1.x"
