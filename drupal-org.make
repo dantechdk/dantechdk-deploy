@@ -5,7 +5,7 @@ defaults[projects][subdir] = contrib
 
 ; Contrib modules.
 
-projects[ctools][version] = 1.10
+projects[ctools][version] = 1.12
 
 projects[enterprise_rotator][subdir] = contrib
 projects[enterprise_rotator][version] = 1.0-rc1
@@ -20,11 +20,15 @@ projects[features][version] = 2.10
 
 projects[file_entity][version] = 2.0-beta3
 
-projects[google_analytics][version] = 2.2
+projects[google_analytics][version] = 2.3
 
 projects[libraries][version] = 2.3
 
+projects[link][version] = 1.4
+
 projects[media][version] = 2.0-beta2
+
+projects[menu_block][version] = 2.7
 
 projects[metatag][version] = 1.16
 
